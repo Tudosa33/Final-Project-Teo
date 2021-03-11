@@ -3,3 +3,7 @@ input:focus {
    background-color: blue;
     
 }
+input:hover {
+    background-color: red;
+
+}
