@@ -33,46 +33,78 @@ body {
             justify-content: center;
             align-items: center;
 
-            h1 {
-                color: white;
-                margin-bottom: 50px;
+            .form {
+                padding: 30px 40px;
             }
 
-            & form > input {
-                display: block;
-                padding: 8px;
-                height: 40px;
-                width: 25vw;
-                background-color: #f0f0f0;
-                opacity: 0.3;
-                
-            }
+            .form-control {
+                margin-bottom: 10px;
+                padding-bottom: 20px;
+                position: relative;
 
-            & label {
-                color: white;
-                font-size: 18px;
-                margin-bottom: 2px;
-            }
+                label {
+                    display: inline-block;
+                    margin-bottom: 5px;
+                    color: white;
+                }
 
-            & button {
-                display: block;
-                width: 25vw;
-                height: 40px;
-                border-radius: 4px;
-                border: none;
-                background-color: green;
-                color: white;
-                font-size: 13px;
-                font-weight: 700;
-            }
-            input {
-                &:focus {
-                    opacity: 1;
-                    outline: none;
-                    border: 3px solid green;
+                input {
+                    border: 3px solid #f0f0f0;
+                    display: block;
+                    border-radius: 4px;
+                    padding: 10px;
+                    font-size: 14px;
+                    font-family: inherit;
+                    width: 25vw;
+                }
+
+                i {
+                    position: absolute;
+                    top: 35px;
+                    right: 10px;
+                    visibility: hidden;
+                }
+
+                small {
+                    visibility: hidden;
+                    font-family: inherit;
+                    
+                }
+                &.success input {
+                    border-color: #2ecc78;
+                }
+                &.error input {
+                    border-color: #e74c3c;
+                }
+                &.success i.done-sign {
+                    visibility: visible;
+                    color: #2ecc78;
+                }
+                &.error i.error-sign {
+                    visibility: visible;
+                    color: #2ecc78;
+                }
+                &.error small {
+                    visibility: visible;
+                    color: #e74c3c;
                 }
             }
-         }
+
+            h1 {
+                color: white;
+            }
+
+            form button {
+                background-color: rgb(39, 39, 39);
+                border: 2px solid rgb(39, 39, 39);
+                color: #fff;
+                display: block;
+                width: 100%;
+                font-family: inherit;
+                padding: 10px;
+                border-radius: 4px;
+            }
+        }     
     }
 
     .content-area {
@@ -98,4 +130,3 @@ body {
         }
     }
 }
-

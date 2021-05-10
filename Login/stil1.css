@@ -56,42 +56,80 @@ body {
           align-items: center;
 }
 
+.wrapper .banner-area .content .form {
+  padding: 30px 40px;
+}
+
+.wrapper .banner-area .content .form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.wrapper .banner-area .content .form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.wrapper .banner-area .content .form-control input {
+  border: 3px solid #f0f0f0;
+  display: block;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: inherit;
+  width: 25vw;
+}
+
+.wrapper .banner-area .content .form-control i {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.wrapper .banner-area .content .form-control small {
+  visibility: hidden;
+  font-family: inherit;
+}
+
+.wrapper .banner-area .content .form-control.success input {
+  border-color: #2ecc78;
+}
+
+.wrapper .banner-area .content .form-control.error input {
+  border-color: #e74c3c;
+}
+
+.wrapper .banner-area .content .form-control.success i.done-sign {
+  visibility: visible;
+  color: #2ecc78;
+}
+
+.wrapper .banner-area .content .form-control.error i.error-sign {
+  visibility: visible;
+  color: #2ecc78;
+}
+
+.wrapper .banner-area .content .form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+
 .wrapper .banner-area .content h1 {
   color: white;
-  margin-bottom: 50px;
 }
 
-.wrapper .banner-area .content form > input {
+.wrapper .banner-area .content form button {
+  background-color: #272727;
+  border: 2px solid #272727;
+  color: #fff;
   display: block;
-  padding: 8px;
-  height: 40px;
-  width: 25vw;
-  background-color: #f0f0f0;
-  opacity: 0.3;
-}
-
-.wrapper .banner-area .content label {
-  color: white;
-  font-size: 18px;
-  margin-bottom: 2px;
-}
-
-.wrapper .banner-area .content button {
-  display: block;
-  width: 25vw;
-  height: 40px;
+  width: 100%;
+  font-family: inherit;
+  padding: 10px;
   border-radius: 4px;
-  border: none;
-  background-color: green;
-  color: white;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.wrapper .banner-area .content input:focus {
-  opacity: 1;
-  outline: none;
-  border: 3px solid green;
 }
 
 .wrapper .content-area {
