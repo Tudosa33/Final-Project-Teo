@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .banner-area1 {
+  width: 50%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://picsum.photos/seed/picsum/1000/1000);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://picsum.photos/seed/picsum/1000/1000);
+  background-size: cover;
+}
+
+.wrapper .banner-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(snowboards.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
+  background-size: cover;
+}
+
+.wrapper .banner-area .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .banner-area .content h1 {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.wrapper .banner-area .content form > input {
+  display: block;
+  padding: 8px;
+  height: 40px;
+  width: 25vw;
+  background-color: #f0f0f0;
+  opacity: 0.3;
+}
+
+.wrapper .banner-area .content label {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.wrapper .banner-area .content button {
+  display: block;
+  width: 25vw;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.wrapper .banner-area .content input:focus {
+  opacity: 1;
+  outline: none;
+  border: 3px solid green;
+}
+
+.wrapper .content-area {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .content-area .content1 {
+  text-align: center;
+}
+
+.wrapper .content-area .content1 h1 {
+  font-size: 40px;
+  color: white;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.wrapper .content-area .content1 p {
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=stil1.css.map */
