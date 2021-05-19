@@ -9,14 +9,14 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.wrapper {
+#wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 100px;
 }
 
-.wrapper .banner-area1 {
+#wrapper .banner-area1 {
   width: 40%;
   height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://picsum.photos/seed/picsum/1000/1000);
@@ -24,7 +24,7 @@ body {
   background-size: cover;
 }
 
-.wrapper .banner-area {
+#wrapper .banner-area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,7 +41,7 @@ body {
   background-size: cover;
 }
 
-.wrapper .banner-area .content {
+#wrapper .banner-area .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,11 +58,11 @@ body {
   color: white;
 }
 
-.wrapper .banner-area .content h1 {
+#wrapper .banner-area .content h1 {
   margin-bottom: 40px;
 }
 
-.wrapper .banner-area .content form {
+#wrapper .banner-area .content form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,23 +78,23 @@ body {
           align-items: center;
 }
 
-.wrapper .banner-area .content form #firstN, .wrapper .banner-area .content form #mail, .wrapper .banner-area .content form #city {
+#wrapper .banner-area .content form #firstN, #wrapper .banner-area .content form #mail, #wrapper .banner-area .content form #city {
   margin-right: 10px;
 }
 
-.wrapper .banner-area .content form .form-control {
+#wrapper .banner-area .content form .form-control {
   margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
 }
 
-.wrapper .banner-area .content form .form-control label {
+#wrapper .banner-area .content form .form-control label {
   display: inline-block;
   margin-bottom: 5px;
   color: white;
 }
 
-.wrapper .banner-area .content form .form-control input {
+#wrapper .banner-area .content form .form-control input {
   border: 3px solid #f0f0f0;
   display: block;
   border-radius: 4px;
@@ -104,42 +104,42 @@ body {
   width: 20vw;
 }
 
-.wrapper .banner-area .content form .form-control i {
+#wrapper .banner-area .content form .form-control i {
   position: absolute;
   top: 35px;
   right: 10px;
   visibility: hidden;
 }
 
-.wrapper .banner-area .content form .form-control small {
+#wrapper .banner-area .content form .form-control small {
   visibility: hidden;
   font-family: inherit;
 }
 
-.wrapper .banner-area .content form .form-control.success input {
+#wrapper .banner-area .content form .form-control.success input {
   border-color: #2ecc78;
 }
 
-.wrapper .banner-area .content form .form-control.error input {
+#wrapper .banner-area .content form .form-control.error input {
   border-color: #e74c3c;
 }
 
-.wrapper .banner-area .content form .form-control.success i.done-sign {
+#wrapper .banner-area .content form .form-control.success i.done-sign {
   visibility: visible;
   color: #2ecc78;
 }
 
-.wrapper .banner-area .content form .form-control.error i.error-sign {
+#wrapper .banner-area .content form .form-control.error i.error-sign {
   visibility: visible;
   color: #2ecc78;
 }
 
-.wrapper .banner-area .content form .form-control.error small {
+#wrapper .banner-area .content form .form-control.error small {
   visibility: visible;
   color: #e74c3c;
 }
 
-.wrapper .banner-area .content form button {
+#wrapper .banner-area .content form button {
   background-color: #272727;
   border: 2px solid #272727;
   color: #fff;
@@ -151,7 +151,7 @@ body {
   margin-top: 20px;
 }
 
-.wrapper .content-area {
+#wrapper .content-area {
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -165,18 +165,18 @@ body {
           align-items: center;
 }
 
-.wrapper .content-area .content1 {
+#wrapper .content-area .content1 {
   text-align: center;
 }
 
-.wrapper .content-area .content1 h1 {
+#wrapper .content-area .content1 h1 {
   font-size: 40px;
   color: white;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
-.wrapper .content-area .content1 p {
+#wrapper .content-area .content1 p {
   font-size: 20px;
   color: white;
 }

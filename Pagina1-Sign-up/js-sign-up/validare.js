@@ -20,6 +20,8 @@ function checkInputs() {
     const cityValue = city.value.trim()
     const countryValue = country.value.trim()
 
+    
+    
     if(firstNameValue === '') {
         setErrorFor(firstName, "First Name lane cannot be blank")
     } else {
