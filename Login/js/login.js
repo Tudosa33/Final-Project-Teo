@@ -3,11 +3,14 @@ const userName = document.getElementById("userN");
 const email = document.getElementById("mail");
 const password = document.getElementById("userp");
 
+
+
 form.addEventListener("submit", function(e) {
     e.preventDefault()
 
     checkInputs()
 })
+
 
 function checkInputs() {
     const usernameValue = userName.value.trim()
@@ -15,14 +18,14 @@ function checkInputs() {
     const passwordValue = password.value.trim()
 
     if(usernameValue === '') {
-        setErrorFor(userName, "Username cannot be blank")
+        setErrorFor(userName, "Username cannot be blank");
     } else {
         setSuccessFor(userName)
     }
 
     if (emailValue === '') {
         setErrorFor(email, "Email cannot be blank")
-    } else if (!emailValue.includes("@") && !emailValue.includes(".") ){
+    } else if (!emailValue.includes("@") || !emailValue.includes(".") ){
         setErrorFor(email, "Must contain @ and .")
     } else {
         setSuccessFor(email)
@@ -35,6 +38,7 @@ function checkInputs() {
     }else {
         setSuccessFor(password)
     }
+    
 }
 
 function setErrorFor(input, message) {
