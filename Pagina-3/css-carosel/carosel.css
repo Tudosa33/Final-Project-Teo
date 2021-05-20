@@ -1,0 +1,145 @@
+a {
+  text-decoration: none;
+}
+
+.box {
+  width: 300px;
+  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.box .slider {
+  height: 450px;
+  position: relative;
+}
+
+.box .slider:hover .buy {
+  visibility: visible;
+  -webkit-animation: fadeimage 0.5s;
+          animation: fadeimage 0.5s;
+}
+
+.box .slider img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box .slider .buy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(155, 187, 248, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  visibility: hidden;
+}
+
+.box .slider .buy .btn {
+  width: 160px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 600;
+  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.box .slider .buy .btn:hover {
+  color: white;
+  background-color: #ff8400;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.box .detail-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box .detail-box .type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box .detail-box .type a {
+  color: white;
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding-right: 8px;
+}
+
+.box .detail-box .type span {
+  color: rgba(41, 38, 38, 0.5);
+  font-weight: 500;
+}
+
+.box .detail-box .price {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+@-webkit-keyframes fadeimage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeimage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=carosel.css.map */

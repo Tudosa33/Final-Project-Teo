@@ -1,0 +1,237 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #ff8400;
+  width: 100vw;
+  height: 100vh;
+}
+
+body header {
+  margin: 0 80px;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+body header .container.high {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5E889F;
+}
+
+body header .container.high .logo-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .container.high .logo-section p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+body header .container.high .logo-section img {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+}
+
+body header .container.high nav {
+  padding: 20px 0;
+}
+
+body header .container.high nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+body header .container.high nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+body header .container.high nav ul li img {
+  padding-right: 5px;
+}
+
+body header .container.high nav ul li:first-child {
+  padding-left: 0;
+}
+
+body header .container.high nav ul li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+body header .container.high nav ul li:hover {
+  cursor: pointer;
+}
+
+body header .container.low {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://cdn.pixabay.com/photo/2019/12/10/11/38/stubaital-4685674_1280.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2019/12/10/11/38/stubaital-4685674_1280.jpg);
+  background-size: 1500px 1000px;
+  width: 100%;
+}
+
+body header .container.low nav {
+  padding: 20px 0;
+  width: 75%;
+}
+
+body header .container.low nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+body header .container.low nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+body header .container.low nav ul li img {
+  padding-right: 5px;
+}
+
+body header .container.low nav ul li:first-child {
+  padding-left: 0;
+}
+
+body header .container.low nav ul li:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+body header .container.low nav ul li:hover {
+  cursor: pointer;
+}
+
+main {
+  margin: 0 80px;
+}
+
+main .hero-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://cdn.pixabay.com/photo/2018/02/23/17/56/snowboarding-3176182_1280.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2018/02/23/17/56/snowboarding-3176182_1280.jpg);
+  background-size: 1500px 700px;
+}
+
+main .hero-image .content.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 60vw;
+}
+
+main .hero-image .content.up span {
+  margin-bottom: 10px;
+}
+
+main .hero-image .content.up #search input {
+  width: 40vw;
+  padding: 8px;
+}
+
+main .hero-image .content.up #search button {
+  width: 10vw;
+  padding: 8px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #5E889F;
+  border: hidden;
+}
+
+main .product-carosel {
+  height: 700px;
+  background-color: #5E889F;
+}
+
+main .product-carosel .carosel {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=aspect-pagina.css.map */
