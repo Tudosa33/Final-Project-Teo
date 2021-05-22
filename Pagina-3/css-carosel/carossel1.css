@@ -1,0 +1,77 @@
+.carosel {
+  position: relative;
+  height: 550px;
+  width: 60%;
+  margin: 0 auto;
+  top: 100px;
+}
+
+.carosel .carosel-button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.carosel .carosel-button img {
+  width: 30px;
+}
+
+.carosel .carosel_button--left {
+  left: -35px;
+}
+
+.carosel .carosel_button--right {
+  right: -35px;
+}
+
+.carosel .carosel-track-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carosel .carosel-track-container .carosel-track {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.carosel .carosel-track-container .carosel-track .carosel-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 25vw;
+}
+
+.carosel .carosel-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+.carosel .carosel-nav .carosel-indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0px 12px;
+  cursor: pointer;
+}
+
+.carosel .carosel-nav .carosel-indicator.current-slide {
+  background: rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=carossel1.css.map */

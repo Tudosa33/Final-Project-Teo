@@ -180,6 +180,7 @@ main .hero-image {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://cdn.pixabay.com/photo/2018/02/23/17/56/snowboarding-3176182_1280.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2018/02/23/17/56/snowboarding-3176182_1280.jpg);
   background-size: 1500px 700px;
+  margin-bottom: 20px;
 }
 
 main .hero-image .content.up {
@@ -213,25 +214,8 @@ main .hero-image .content.up #search button {
   border: hidden;
 }
 
-main .product-carosel {
+main .zone1 {
   height: 700px;
   background-color: #5E889F;
-}
-
-main .product-carosel .carosel {
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=aspect-pagina.css.map */
