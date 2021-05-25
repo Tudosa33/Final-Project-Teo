@@ -177,9 +177,9 @@ main .hero-image {
           align-items: center;
   height: 500px;
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://cdn.pixabay.com/photo/2018/02/23/17/56/snowboarding-3176182_1280.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2018/02/23/17/56/snowboarding-3176182_1280.jpg);
-  background-size: 1500px 700px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1522056615691-da7b8106c665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1952&q=80);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1522056615691-da7b8106c665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1952&q=80);
+  background-size: 1200px 700px;
   margin-bottom: 20px;
 }
 
@@ -215,6 +215,16 @@ main .hero-image .content.up #search button {
 }
 
 main .zone1 {
+  height: 700px;
+  background-color: #5E889F;
+}
+
+main .zone2 {
+  height: 700px;
+  background-color: #5E889F;
+}
+
+main .zone3 {
   height: 700px;
   background-color: #5E889F;
 }

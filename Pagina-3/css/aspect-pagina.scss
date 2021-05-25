@@ -136,8 +136,8 @@ main {
         align-items: center;
         height: 500px;
         color: $third-color;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2018/02/23/17/56/snowboarding-3176182_1280.jpg);
-        background-size: 1500px 700px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1522056615691-da7b8106c665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1952&q=80);
+        background-size: 1200px 700px; // demensiunea imaginii din prima sectiune din main
         margin-bottom: 20px;
 
         .content.up {
@@ -170,6 +170,17 @@ main {
     }
 
     .zone1 {
+        height: 700px;
+        background-color: $header-container-color;
+    }
+    
+    .zone2 {
+        height: 700px;
+        background-color: $header-container-color;
+       
+    }
+
+    .zone3 {
         height: 700px;
         background-color: $header-container-color;
     }

@@ -2,12 +2,18 @@ const form = document.getElementById("form");
 const userName = document.getElementById("userN");
 const email = document.getElementById("mail");
 const password = document.getElementById("userp");
+const inputs = form.querySelectorAll('input')
 
 
+for(let input of inputs) {
+    input.addEventListener("input", function(e) {
+       
+        checkInputs()
+    })
+}
 
-form.addEventListener("submit", function(e) {
+form.addEventListener("input", function(e) {
     e.preventDefault()
-
     checkInputs()
 })
 

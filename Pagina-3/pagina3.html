@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css-carosel-item/carosel.css">
-    <link rel="stylesheet" href="css-carosel/carossel1.css">
+    <link rel="stylesheet" href="css-carosel/carousel1.css">
+    <link rel="stylesheet" href="css-carosel/carousel2.css">
 </head>
 
 <body>
@@ -60,162 +61,304 @@
             </div>
         </section>
         <section class="zone1">
-            <div class="carosel">
-                <button class="carosel-button carosel_button--left">
-                    <img src="icons/previous.png" alt="">
+            <section class="carousel">
+                <button data-direction="prev" class="carousel-button carousel_button--left">
+                    <img src="icons/previous.png" data-direction="prev">
                 </button>
-                <div class="carosel-track-container">
-                    <ul class="carosel-track">
-                        <li class="carosel-slide current-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Burton Family Tree Sensei.webp" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
-                                </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Burton Family Tree Sensei</a>
-                                        <span>Freestyle snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">700.Eur</a>
+                <ul class="carousel-track">
+                    <li class="carousel-slide active-element">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Burton Family Tree Sensei.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="carosel-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Burton Free Thinker.jpg" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Family Sensei</a>
+                                    <span>Freestyle snowboard</span>
                                 </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Burton Free Thinker</a>
-                                        <span>All Mountain snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">650.Eur</a>
+                                <a href="#" class="price">700.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Burton Free Thinker.jpg" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="carosel-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Burton Skeleton Key.webp" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Free Thinker</a>
+                                    <span>All Mountain snowboard</span>
                                 </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Burton Skeleton Key</a>
-                                        <span>All park snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">800.Eur</a>
+                                <a href="#" class="price">650.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Burton Skeleton Key.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="carosel-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Men's Burton Kilroy Pow.webp" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Skeleton Key</a>
+                                    <span>All park snowboard</span>
                                 </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Men's Burton Kilroy</a>
-                                        <span>Powder snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">400.Eur</a>
+                                <a href="#" class="price">800.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Men's Burton Kilroy Pow.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="carosel-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Men's Burton Ripcord.webp" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Men's Burton Kilroy</a>
+                                    <span>Powder snowboard</span>
                                 </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Burton Ripcord</a>
-                                        <span>Freestyle snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">500.Eur</a>
+                                <a href="#" class="price">400.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Men's Burton Ripcord.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="carosel-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Rome-RavineSelect-Snowboard.png" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Ripcord</a>
+                                    <span>Freestyle snowboard</span>
                                 </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Rome RavineSelect</a>
-                                        <span>All Mountain snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">600.Eur</a>
+                                <a href="#" class="price">500.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Rome-RavineSelect-Snowboard.png" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="carosel-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Rome-ServiceDogSnowboard.png" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Rome RavineSelect</a>
+                                    <span>All Mountain snowboard</span>
                                 </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Rome Service-Dog</a>
-                                        <span>Freestyle snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">700.Eur</a>
+                                <a href="#" class="price">600.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Rome-ServiceDogSnowboard.png" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="carosel-slide">
-                            <div class="box">
-                                <div class="slider">
-                                    <img src="carosel/Rome-SpeedFreakSnowboard.png" alt="">
-                                    <div class="buy">
-                                        <a href="#" class="btn">Buy now</a>
-                                    </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Rome Service-Dog</a>
+                                    <span>Freestyle snowboard</span>
                                 </div>
-                                <div class="detail-box">
-                                    <div class="type">
-                                        <a href="#">Rome SpeedFreak</a>
-                                        <span>Speedster snowboard</span>
-                                    </div>
-                                    <a href="#" class="price">900.Eur</a>
+                                <a href="#" class="price">700.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Rome-SpeedFreakSnowboard.png" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
                                 </div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
-                <button class="carosel-button carosel_button--right">
-                    <img src="icons/next.png" alt="">
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Rome SpeedFreak</a>
+                                    <span>Speedster snowboard</span>
+                                </div>
+                                <a href="#" class="price">900.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button data-direction="next" class="carousel-button carousel_button--right">
+                    <img src="icons/next.png" data-direction="next">
                 </button>
-                <div class="carosel-nav">
-                    <button class="carosel-indicator current-slide"></button>
-                    <button class="carosel-indicator"></button>
-                    <button class="carosel-indicator"></button>
-                </div>
-            </div>
+            </section>
+        </section>
+        <section class="zone2"></section>
+        <section class="zone3">
+            <section class="carousel2">
+                <button data-go="prev2" class="carousel-btn carousel_btn--left">
+                    <img src="icons/previous.png" data-go="prev2">
+                </button>
+                <ul class="carousel-track2">
+                    <li class="carousel-slide2 target-element">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Burton Family Tree Sensei.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Family Sensei</a>
+                                    <span>Freestyle snowboard</span>
+                                </div>
+                                <a href="#" class="price">700.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide2">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Burton Free Thinker.jpg" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Free Thinker</a>
+                                    <span>All Mountain snowboard</span>
+                                </div>
+                                <a href="#" class="price">650.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide2">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Burton Skeleton Key.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Skeleton Key</a>
+                                    <span>All park snowboard</span>
+                                </div>
+                                <a href="#" class="price">800.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide2">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Men's Burton Kilroy Pow.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Men's Burton Kilroy</a>
+                                    <span>Powder snowboard</span>
+                                </div>
+                                <a href="#" class="price">400.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide2">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Men's Burton Ripcord.webp" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Burton Ripcord</a>
+                                    <span>Freestyle snowboard</span>
+                                </div>
+                                <a href="#" class="price">500.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide2">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Rome-RavineSelect-Snowboard.png" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Rome RavineSelect</a>
+                                    <span>All Mountain snowboard</span>
+                                </div>
+                                <a href="#" class="price">600.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide2">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Rome-ServiceDogSnowboard.png" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Rome Service-Dog</a>
+                                    <span>Freestyle snowboard</span>
+                                </div>
+                                <a href="#" class="price">700.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-slide2">
+                        <div class="box">
+                            <div class="slider">
+                                <img src="carosel/Rome-SpeedFreakSnowboard.png" alt="">
+                                <div class="buy">
+                                    <a href="#" class="btn">Buy now</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <a href="#">Rome SpeedFreak</a>
+                                    <span>Speedster snowboard</span>
+                                </div>
+                                <a href="#" class="price">900.Eur</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button data-go="next2" class="carousel-btn carousel_btn--right">
+                    <img src="icons/next.png" data-go="next2">
+                </button>
+            </section>
         </section>
     </main>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script-carousel1.js"></script>
+    <script type="text/javascript" src="js/carousel2.js"></script>
 </body>
-
 </html>
