@@ -5,7 +5,7 @@ const itemContainer = main.querySelector(".carousel-track");
 const itemCount = itemContainer.children.length;
 const itemWidth = 300; // item width + margin
 const activeClass = "active-element";
-const maxVisibleItems = 1;
+const maxVisibleItems = 4;
 
 function getElementIndex(element) {
   return Array.from(element.parentNode.children).indexOf(element);
