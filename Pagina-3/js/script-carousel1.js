@@ -3,9 +3,9 @@ const carousel = main.querySelector(".carousel");
 const buttons = carousel.getElementsByTagName("button");
 const itemContainer = main.querySelector(".carousel-track");
 const itemCount = itemContainer.children.length;
-const itemWidth = 300; // item width + margin
+const itemWidth = 270; // item width + margin
 const activeClass = "active-element";
-const maxVisibleItems = 4;
+const maxVisibleItems = 2;
 
 function getElementIndex(element) {
   return Array.from(element.parentNode.children).indexOf(element);

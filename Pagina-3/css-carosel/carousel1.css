@@ -48,7 +48,7 @@
   transition: -webkit-transform 250ms ease-in;
   transition: transform 250ms ease-in;
   transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
-  left: 730px;
+  left: 1100px;
 }
 
 .carousel .carousel-track .carousel-slide {

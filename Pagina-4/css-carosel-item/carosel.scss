@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+}
+
+
+.box {
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+    
+    .slider {
+        height: 450px;
+        position: relative;
+
+        &:hover .buy {
+            visibility: visible;
+            animation: fadeimage 0.5s;
+
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-sizing: border-box;
+        }
+
+        .buy {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            background-color: rgba(155, 187, 248, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            visibility: hidden;
+
+            .btn {
+                width: 160px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: whitesmoke;
+                border-radius: 20px;
+                color: black;
+                letter-spacing: 1px;
+                font-weight: 600;
+                box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+
+                &:hover {
+                    color: white;
+                    background-color: hsl(31, 100%, 50%);
+                    transition: all ease 0.3s;
+                }
+            }
+        }
+    }
+
+    .detail-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        box-sizing: border-box;
+
+        .type {
+            display: flex;
+            flex-direction: column;
+            
+
+            a {
+                color: white;
+                margin: 5px 0;
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                padding-right: 8px;
+            }
+
+            span {
+                color: rgba(41, 38, 38, 0.5);
+                font-weight: 500;
+
+            }
+        }
+
+        .price {
+            color: white;
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: 0.5px;
+        }
+    }
+}
+
+@keyframes fadeimage {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

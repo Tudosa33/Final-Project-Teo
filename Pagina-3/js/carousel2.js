@@ -3,9 +3,9 @@ const carousel2 = main2.querySelector(".carousel2");
 const buttons2 = carousel2.getElementsByTagName("button");
 const itemContainer2 = main2.querySelector(".carousel-track2");
 const itemCount2 = itemContainer2.children.length;
-const itemWidth2 = 300; // item width + margin
+const itemWidth2 = 270; // item width + margin
 const activeClass2 = "target-element";
-const maxVisibleItems2 = 4;
+const maxVisibleItems2 = 2;
 
 function getElementIndex2(element) {
   return Array.from(element.parentNode.children).indexOf(element);
