@@ -1,11 +1,11 @@
-const main = document.getElementsByTagName('main')[0];
+const main = document.querySelector('.categories');
 const carousel = main.querySelector(".carousel");
 const buttons = carousel.getElementsByTagName("button");
 const itemContainer = main.querySelector(".carousel-track");
 const itemCount = itemContainer.children.length;
-const itemWidth = 270; // item width + margin
+const itemWidth = 300; // item width + margin
 const activeClass = "active-element";
-const maxVisibleItems = 2;
+const maxVisibleItems = 4;
 
 function getElementIndex(element) {
   return Array.from(element.parentNode.children).indexOf(element);
@@ -13,7 +13,6 @@ function getElementIndex(element) {
 
 window.addEventListener("resize", function (e) {
   // optiona: use a debounce function
-  console.log(window.innerWidth);
   // update the maxVisibleItems value based on window width
 });
 

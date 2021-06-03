@@ -1,9 +1,9 @@
 .carousel {
   position: relative;
-  height: 550px;
-  width: 80%;
+  height: 600px;
+  width: 75%;
   margin: 0 auto;
-  top: 10px;
+  top: 100px;
   overflow: hidden;
 }
 
@@ -48,11 +48,10 @@
   transition: -webkit-transform 250ms ease-in;
   transition: transform 250ms ease-in;
   transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
-  left: 1100px;
+  left: 900px;
 }
 
 .carousel .carousel-track .carousel-slide {
-  width: 25vw;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 /*# sourceMappingURL=carousel1.css.map */
