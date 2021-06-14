@@ -48,6 +48,8 @@ a {
       -ms-flex-align: center;
           align-items: center;
   visibility: hidden;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .box .slider .buy .btn {

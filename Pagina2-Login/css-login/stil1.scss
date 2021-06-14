@@ -13,125 +13,255 @@ body {
 
 #wrapper {
     display: flex;
-    margin:  100px;
-    
-    
-    .banner-area1 {
-        width: 50%;
-        height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://picsum.photos/seed/picsum/1000/1000);
-        background-size: cover;
-    }
 
-    .banner-area {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
-        background-size: cover;
+    @media screen and (min-width:300px) {
+        .banner-area1 {
+            display: none;
+        }
 
-        .content {
+        .banner-area {
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            .form {
-                padding: 30px 40px;
-            }
-
-            .form-control {
-                margin-bottom: 10px;
-                padding-bottom: 20px;
-                position: relative;
-
-                label {
-                    display: inline-block;
-                    margin-bottom: 5px;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
+            background-size: cover;
+    
+            .content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                .form {
+                    width: 100%;
+                }
+    
+                .form-control {
+                    margin-bottom: 10px;
+                    padding-bottom: 20px;
+                    position: relative;
+    
+                    label {
+                        display: inline-block;
+                        margin-bottom: 5px;
+                        color: white;
+                    }
+    
+                    input {
+                        border: 3px solid #f0f0f0;
+                        display: block;
+                        border-radius: 4px;
+                        padding: 10px;
+                        font-size: 14px;
+                        font-family: inherit;
+                        width: 300px;
+                    }
+    
+                    i {
+                        position: absolute;
+                        top: 35px;
+                        right: 10px;
+                        visibility: hidden;
+                    }
+    
+                    small {
+                        visibility: hidden;
+                        font-family: inherit;
+                        
+                    }
+                    &.success input {
+                        border-color: #2ecc78;
+                    }
+                    &.error input {
+                        border-color: #e74c3c;
+                    }
+                    &.success i.done-sign {
+                        visibility: visible;
+                        color: #2ecc78;
+                    }
+                    &.error i.error-sign {
+                        visibility: visible;
+                        color: #2ecc78;
+                    }
+                    &.error small {
+                        visibility: visible;
+                        color: #e74c3c;
+                    }
+                }
+    
+                h1 {
                     color: white;
                 }
-
-                input {
-                    border: 3px solid #f0f0f0;
+    
+                form button {
+                    background-color: rgb(39, 39, 39);
+                    border: 2px solid rgb(39, 39, 39);
+                    color: #fff;
                     display: block;
-                    border-radius: 4px;
+                    width: 100%;
+                    font-family: inherit;
                     padding: 10px;
-                    font-size: 14px;
-                    font-family: inherit;
-                    width: 25vw;
+                    border-radius: 4px;
                 }
+            }     
+        }
 
-                i {
-                    position: absolute;
-                    top: 35px;
-                    right: 10px;
-                    visibility: hidden;
+        .content-area {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .content1 {
+                text-align: center;
+                
+                & h1 {
+                    font-size: 40px;
+                    color: white;
+                    padding-bottom: 20px;
+                    margin-bottom: 20px
                 }
-
-                small {
-                    visibility: hidden;
-                    font-family: inherit;
-                    
-                }
-                &.success input {
-                    border-color: #2ecc78;
-                }
-                &.error input {
-                    border-color: #e74c3c;
-                }
-                &.success i.done-sign {
-                    visibility: visible;
-                    color: #2ecc78;
-                }
-                &.error i.error-sign {
-                    visibility: visible;
-                    color: #2ecc78;
-                }
-                &.error small {
-                    visibility: visible;
-                    color: #e74c3c;
+                p {
+                    font-size: 20px;
+                    color: white;
                 }
             }
+        }
 
-            h1 {
-                color: white;
-            }
-
-            form button {
-                background-color: rgb(39, 39, 39);
-                border: 2px solid rgb(39, 39, 39);
-                color: #fff;
-                display: block;
-                width: 100%;
-                font-family: inherit;
-                padding: 10px;
-                border-radius: 4px;
-            }
-        }     
+        a {
+            color: white;
+            margin-top: 20px;
+        }
     }
 
-    .content-area {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    @media screen and (min-width: 756px) {
+        .banner-area1 {
+            display: flex;
+            width: 40%;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://picsum.photos/seed/picsum/1000/1000);
+            background-size: cover;
+        }
 
-        .content1 {
-            text-align: center;
-            
-            & h1 {
-                font-size: 40px;
-                color: white;
-                padding-bottom: 20px;
-                margin-bottom: 20px
+        .banner-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
+            background-size: cover;
+    
+            .content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+    
+                .form {
+                    width: 50%;
+                }
+    
+                .form-control {
+                    margin-bottom: 10px;
+                    padding-bottom: 20px;
+                    position: relative;
+    
+                    label {
+                        display: inline-block;
+                        margin-bottom: 5px;
+                        color: white;
+                    }
+    
+                    input {
+                        border: 3px solid #f0f0f0;
+                        display: block;
+                        border-radius: 4px;
+                        padding: 10px;
+                        font-size: 14px;
+                        font-family: inherit;
+                        width: 100%;
+                    }
+    
+                    i {
+                        position: absolute;
+                        top: 35px;
+                        right: 10px;
+                        visibility: hidden;
+                    }
+    
+                    small {
+                        visibility: hidden;
+                        font-family: inherit;
+                        
+                    }
+                    &.success input {
+                        border-color: #2ecc78;
+                    }
+                    &.error input {
+                        border-color: #e74c3c;
+                    }
+                    &.success i.done-sign {
+                        visibility: visible;
+                        color: #2ecc78;
+                    }
+                    &.error i.error-sign {
+                        visibility: visible;
+                        color: #2ecc78;
+                    }
+                    &.error small {
+                        visibility: visible;
+                        color: #e74c3c;
+                    }
+                }
+    
+                h1 {
+                    color: white;
+                }
+    
+                form button {
+                    background-color: rgb(39, 39, 39);
+                    border: 2px solid rgb(39, 39, 39);
+                    color: #fff;
+                    display: block;
+                    width: 100%;
+                    font-family: inherit;
+                    padding: 10px;
+                    border-radius: 4px;
+                }
+            }     
+        }
+
+        .content-area {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .content1 {
+                text-align: center;
+                
+                & h1 {
+                    font-size: 40px;
+                    color: white;
+                    padding-bottom: 20px;
+                    margin-bottom: 20px
+                }
+                p {
+                    font-size: 20px;
+                    color: white;
+                }
             }
-            p {
-                font-size: 20px;
-                color: white;
-            }
+        }
+
+        a {
+            color: white;
         }
     }
 }
+

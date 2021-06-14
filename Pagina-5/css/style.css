@@ -508,21 +508,6 @@ footer .Copyright {
     margin-right: 100px;
   }
   .single-product .row {
-    text-align: left;
-  }
-  .single-product .row .categories {
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 70px 0;
-  }
-  .single-product .row .categories .single-product {
-    margin-top: 80px;
-  }
-  .single-product .row .categories .single-product .row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -532,9 +517,9 @@ footer .Copyright {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .single-product .row .categories .single-product .row .col-2 {
-    -ms-flex-preferred-size: 0%;
-        flex-basis: 0%;
+  .single-product .row .col-2:first-child {
+    -ms-flex-preferred-size: 120%;
+        flex-basis: 120%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -464,28 +464,13 @@ footer {
 
     .single-product {
         .row {
-            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
 
-            .categories {
-                margin:auto;
-                display: flex;
-                flex-wrap: wrap;
-                margin:70px 0;
-
-                .single-product {
-                    margin-top: 80px;
-            
-                    .row {
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-around;
-            
-                        .col-2 {
-                            flex-basis: 0%;
-                            
-                        }
-                    }
-                }
+            .col-2:first-child {
+                flex-basis: 120%;
+                
             }
         }
     }

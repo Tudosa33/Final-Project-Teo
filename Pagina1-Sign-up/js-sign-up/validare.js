@@ -7,7 +7,25 @@ const city = document.getElementById("city")
 const country = document.getElementById("country")
 
 form.addEventListener("submit", function(e) {
-    e.preventDefault()
+
+    const checkEmail = mail.value;
+    const checkPassword = password.value;
+    const checkFirstName = firstName.value;
+    const checkFLastName = lastName.value;
+    const checkCity = city.value;
+    const checkCountry = country.value;
+
+    
+    if (checkEmail === "" || checkPassword === "" || checkFirstName === "" || checkFLastName === "" || checkCity === "" || checkCountry === "" ){
+       e.preventDefault()
+    } else {
+        console.log("ok")
+    }
+
+    checkInputs()
+})
+
+form.addEventListener("input", function() {
 
     checkInputs()
 })
@@ -45,18 +63,16 @@ function checkInputs() {
     if(passwordValue === "") {
         setErrorFor(password, "Password lane cannot be empty")
     } else if (passwordValue.length < 8 || passwordValue.length > 15) {
-        setErrorFor(password, "Password must contain between 8 and 15")
+        setErrorFor(password, "Must contain between 8 and 15 characters")
     } else {
         setSuccessFor(password)
     }
 
     if(cityValue === "") {
         setErrorFor(city, "City lane cannot be empty")
-        country.setAttribute("disabled", "disabled")
         
     } else {
         setSuccessFor(city)
-        country.removeAttribute("disabled")
     }
 
     if(countryValue === "") {

@@ -14,171 +14,264 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 100px;
 }
 
-#wrapper .banner-area1 {
-  width: 40%;
-  height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://picsum.photos/seed/picsum/1000/1000);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://picsum.photos/seed/picsum/1000/1000);
-  background-size: cover;
+@media screen and (min-width: 300px) {
+  #wrapper .banner-area1 {
+    display: none;
+  }
+  #wrapper .banner-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(snowboards.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
+    background-size: cover;
+  }
+  #wrapper .banner-area .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    margin-top: 50px;
+  }
+  #wrapper .banner-area .content h1 {
+    margin-bottom: 40px;
+  }
+  #wrapper .banner-area .content form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  #wrapper .banner-area .content form .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  #wrapper .banner-area .content form .form-control input {
+    border: 3px solid #f0f0f0;
+    display: block;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    width: 100%;
+  }
+  #wrapper .banner-area .content form .form-control i {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    visibility: hidden;
+  }
+  #wrapper .banner-area .content form .form-control small {
+    visibility: hidden;
+    font-family: inherit;
+  }
+  #wrapper .banner-area .content form .form-control.success input {
+    border-color: #2ecc78;
+  }
+  #wrapper .banner-area .content form .form-control.error input {
+    border-color: #e74c3c;
+  }
+  #wrapper .banner-area .content form .form-control.success i.done-sign {
+    visibility: visible;
+    color: #2ecc78;
+  }
+  #wrapper .banner-area .content form .form-control.error i.error-sign {
+    visibility: visible;
+    color: #2ecc78;
+  }
+  #wrapper .banner-area .content form .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+  #wrapper .banner-area .content form button {
+    background-color: #272727;
+    border: 2px solid #272727;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  #wrapper .banner-area .content a {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 
-#wrapper .banner-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 60%;
-  height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(snowboards.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
-  background-size: cover;
-}
-
-#wrapper .banner-area .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-}
-
-#wrapper .banner-area .content h1 {
-  margin-bottom: 40px;
-}
-
-#wrapper .banner-area .content form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#wrapper .banner-area .content form #firstN, #wrapper .banner-area .content form #mail, #wrapper .banner-area .content form #city {
-  margin-right: 10px;
-}
-
-#wrapper .banner-area .content form .form-control {
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-#wrapper .banner-area .content form .form-control label {
-  display: inline-block;
-  margin-bottom: 5px;
-  color: white;
-}
-
-#wrapper .banner-area .content form .form-control input {
-  border: 3px solid #f0f0f0;
-  display: block;
-  border-radius: 4px;
-  padding: 10px;
-  font-size: 14px;
-  font-family: inherit;
-  width: 20vw;
-}
-
-#wrapper .banner-area .content form .form-control i {
-  position: absolute;
-  top: 35px;
-  right: 10px;
-  visibility: hidden;
-}
-
-#wrapper .banner-area .content form .form-control small {
-  visibility: hidden;
-  font-family: inherit;
-}
-
-#wrapper .banner-area .content form .form-control.success input {
-  border-color: #2ecc78;
-}
-
-#wrapper .banner-area .content form .form-control.error input {
-  border-color: #e74c3c;
-}
-
-#wrapper .banner-area .content form .form-control.success i.done-sign {
-  visibility: visible;
-  color: #2ecc78;
-}
-
-#wrapper .banner-area .content form .form-control.error i.error-sign {
-  visibility: visible;
-  color: #2ecc78;
-}
-
-#wrapper .banner-area .content form .form-control.error small {
-  visibility: visible;
-  color: #e74c3c;
-}
-
-#wrapper .banner-area .content form button {
-  background-color: #272727;
-  border: 2px solid #272727;
-  color: #fff;
-  display: block;
-  width: 50%;
-  font-family: inherit;
-  padding: 10px;
-  border-radius: 4px;
-  margin-top: 20px;
-}
-
-#wrapper .content-area {
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#wrapper .content-area .content1 {
-  text-align: center;
-}
-
-#wrapper .content-area .content1 h1 {
-  font-size: 40px;
-  color: white;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-
-#wrapper .content-area .content1 p {
-  font-size: 20px;
-  color: white;
+@media screen and (min-width: 756px) {
+  #wrapper .banner-area1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://picsum.photos/seed/picsum/1000/1000);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://picsum.photos/seed/picsum/1000/1000);
+    background-size: cover;
+  }
+  #wrapper .banner-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60%;
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(snowboards.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
+    background-size: cover;
+  }
+  #wrapper .banner-area .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #wrapper .banner-area .content h1 {
+    margin-bottom: 40px;
+  }
+  #wrapper .banner-area .content form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 0 20px;
+    margin: 20px 30px;
+  }
+  #wrapper .banner-area .content form #firstN, #wrapper .banner-area .content form #mail, #wrapper .banner-area .content form #city {
+    margin-right: 10px;
+  }
+  #wrapper .banner-area .content form .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  #wrapper .banner-area .content form .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  #wrapper .banner-area .content form .form-control input {
+    border: 3px solid #f0f0f0;
+    display: block;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    width: 100%;
+  }
+  #wrapper .banner-area .content form .form-control i {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    visibility: hidden;
+  }
+  #wrapper .banner-area .content form .form-control small {
+    visibility: hidden;
+    font-family: inherit;
+  }
+  #wrapper .banner-area .content form .form-control.success input {
+    border-color: #2ecc78;
+  }
+  #wrapper .banner-area .content form .form-control.error input {
+    border-color: #e74c3c;
+  }
+  #wrapper .banner-area .content form .form-control.success i.done-sign {
+    visibility: visible;
+    color: #2ecc78;
+  }
+  #wrapper .banner-area .content form .form-control.error i.error-sign {
+    visibility: visible;
+    color: #2ecc78;
+  }
+  #wrapper .banner-area .content form .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+  #wrapper .banner-area .content form button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/ span 2;
+    background-color: #272727;
+    border: 2px solid #272727;
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  #wrapper .banner-area .content a {
+    color: white;
+    margin-top: 40px;
+  }
+  #wrapper .content-area {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #wrapper .content-area .content1 {
+    text-align: center;
+  }
+  #wrapper .content-area .content1 h1 {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  #wrapper .content-area .content1 p {
+    font-size: 20px;
+    color: white;
+  }
 }
 /*# sourceMappingURL=sign-up.css.map */

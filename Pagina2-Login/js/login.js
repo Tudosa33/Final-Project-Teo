@@ -6,28 +6,31 @@ const inputs = form.querySelectorAll('input')
 
 
 for(let input of inputs) {
-    input.addEventListener("input", function(e) {
+    input.addEventListener("input", function() {
        
         checkInputs()
     })
 }
 
-form.addEventListener("input", function(e) {
-    e.preventDefault()
+form.addEventListener("submit", function(e) {
+
+    const checkEmail = email.value;
+    const checkPassword = password.value;
+
+    
+    if (checkEmail === "" || checkPassword === ""){
+       e.preventDefault()
+    } else {
+        console.log("ok")
+    }
+
     checkInputs()
 })
 
 
 function checkInputs() {
-    const usernameValue = userName.value.trim()
     const emailValue = email.value.trim()
     const passwordValue = password.value.trim()
-
-    if(usernameValue === '') {
-        setErrorFor(userName, "Username cannot be blank");
-    } else {
-        setSuccessFor(userName)
-    }
 
     if (emailValue === '') {
         setErrorFor(email, "Email cannot be blank")
@@ -40,7 +43,7 @@ function checkInputs() {
     if(passwordValue === '') {
         setErrorFor(password, "Password cannot be blank")
     } else if (passwordValue.length < 8 || passwordValue.length > 15) {
-        setErrorFor(password, "Password must contain between 8 and 15 charcaters")
+        setErrorFor(password, "Must contain between 8 and 15 charcaters")
     }else {
         setSuccessFor(password)
     }
