@@ -50,6 +50,10 @@ body p {
   font-weight: 600;
 }
 
+.navbar nav ul li a:hover {
+  color: blueviolet;
+}
+
 .container {
   max-width: 1300px;
   margin: auto;
@@ -192,13 +196,13 @@ body p {
           align-items: center;
 }
 
-.container .nav .wrapper .nav-list .mega-box .content .row {
+.container .nav .wrapper .nav-list .mega-box .content .column {
   width: 80%;
   line-height: 30px;
   text-align: center;
 }
 
-.container .nav .wrapper .nav-list .mega-box .content .row h2 {
+.container .nav .wrapper .nav-list .mega-box .content .column h2 {
   font-size: 26px;
   font-weight: 600;
   color: whitesmoke;
@@ -206,23 +210,23 @@ body p {
   text-align: center;
 }
 
-.container .nav .wrapper .nav-list .mega-box .content .row .mega-links {
+.container .nav .wrapper .nav-list .mega-box .content .column .mega-links {
   border-right: 1px solid rgba(12, 12, 12, 0.2);
   margin-right: 20px;
 }
 
-.container .nav .wrapper .nav-list .mega-box .content .row li {
+.container .nav .wrapper .nav-list .mega-box .content .column .mega-links li {
   padding: 10px 20px;
 }
 
-.container .nav .wrapper .nav-list .mega-box .content .row li a {
+.container .nav .wrapper .nav-list .mega-box .content .column .mega-links li a {
   padding: 0 10px;
   display: block;
   font-size: 18px;
   color: white;
 }
 
-.container .nav .wrapper .nav-list .mega-box .content .row li a:hover {
+.container .nav .wrapper .nav-list .mega-box .content .column .mega-links li a:hover {
   color: red;
 }
 
