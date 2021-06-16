@@ -18,8 +18,6 @@ form.addEventListener("submit", function(e) {
     
     if (checkEmail === "" || checkPassword === "" || checkFirstName === "" || checkFLastName === "" || checkCity === "" || checkCountry === "" ){
        e.preventDefault()
-    } else {
-        console.log("ok")
     }
 
     checkInputs()

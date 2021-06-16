@@ -20,8 +20,6 @@ form.addEventListener("submit", function(e) {
     
     if (checkEmail === "" || checkPassword === ""){
        e.preventDefault()
-    } else {
-        console.log("ok")
     }
 
     checkInputs()
