@@ -5,7 +5,7 @@ const itemContainer = main.querySelector(".carousel-track");
 const itemCount = itemContainer.children.length;
 const itemWidth = 300; // item width + margin
 const activeClass = "active-element";
-const maxVisibleItems = 4;
+const maxVisibleItems = 4; 
 
 function getElementIndex(element) {
   return Array.from(element.parentNode.children).indexOf(element);
@@ -14,12 +14,12 @@ function getElementIndex(element) {
 window.addEventListener("resize", function (e) {
   // optiona: use a debounce function
   // update the maxVisibleItems value based on window width
+  
 });
 
 for (let button of buttons) {
   button.addEventListener("click", function (e) {
     const { direction } = e.target.dataset;
-    console.log(direction)
     
     const nextActiveElementSibling =
       direction === "next"

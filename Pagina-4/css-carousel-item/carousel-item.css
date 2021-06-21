@@ -7,6 +7,7 @@ a {
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  height: 540px;
 }
 
 .box .slider {
@@ -48,6 +49,8 @@ a {
       -ms-flex-align: center;
           align-items: center;
   visibility: hidden;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .box .slider .buy .btn {
@@ -142,4 +145,4 @@ a {
     opacity: 1;
   }
 }
-/*# sourceMappingURL=carosel.css.map */
+/*# sourceMappingURL=carousel-item.css.map */

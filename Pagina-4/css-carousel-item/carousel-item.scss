@@ -7,6 +7,7 @@ a {
     width: 250px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    height: 540px;
     
     
     .slider {
@@ -38,6 +39,7 @@ a {
             justify-content: center;
             align-items: center;
             visibility: hidden;
+            flex-wrap: wrap;
 
             .btn {
                 width: 160px;
