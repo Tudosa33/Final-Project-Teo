@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "brand": "Burton",
+        "name": "Men's Burton Kilroy Pow",
+        "style" : "Freestyle",
+        "avatar": "https://www.burton.com/static/product/W21/19532103000155_1.png?impolicy=bglt&imwidth=486",
+        "price": "600"
+    },
+    {
+        "id": "2",
+        "brand": "Burton",
+        "name": "Men's Burton Ripcord",
+        "style" : "All-Mountain",
+        "avatar": "https://www.burton.com/static/product/W21/10704107000145_1.png?impolicy=bglt&imwidth=486",
+        "price": "650"
+    },
+    {
+        "id": "3",
+        "brand": "Burton",
+        "name": "Burton Skeleton Key",
+        "style" : "Park",
+        "avatar": "https://www.burton.com/static/product/W21/22251100000162_1.png?impolicy=bglt&imwidth=486",
+        "price": "800"
+    },
+    {
+        "id": "4",
+        "brand": "Burton",
+        "name": "Burton Family Tree Sensei",
+        "style" : "Freestyle",
+        "avatar": "https://www.burton.com/static/product/W21/22242100000151_1.png?impolicy=bglt&imwidth=486",
+        "price": "700"
+    },
+    {
+        "id": "5",
+        "brand": "Rome",
+        "name": "Rome-ServiceDogSnowboard",
+        "style" : "Freestyle",
+        "avatar": "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-ServiceDogSnowboard-2020-2021_1024x1024.png?v=1599223244",
+        "price": "700"
+    },
+    {
+        "id": "6",
+        "brand": "Rome",
+        "name": "Rome-SpeedFreakSnowboard",
+        "style" : "All-Mountain",
+        "avatar": "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-SpeedFreakSnowboard-2020-2021_1024x1024.png?v=1599224649",
+        "price": "900"
+    },
+    {
+        "id": "7",
+        "brand": "Rome",
+        "name": "Rome-Royal",
+        "style" : "Park",
+        "avatar": "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-RoyalSnowboard-2020-2021_1024x1024.png?v=1599222975",
+        "price": "800"
+    },
+    {
+        "id": "8",
+        "brand": "Rome",
+        "name": "Rome-RavineSelect",
+        "style" : "Park",
+        "avatar": "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-RavineSelect-Snowboard-2020-2021_1024x1024.png?v=1599221718",
+        "price": "700"
+    },
+    {
+        "id": "9",
+        "brand": "Rome",
+        "name": "Rome-National",
+        "style" : "All-Mountain",
+        "avatar": "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-NationalSnowboard-Flip-2020-2021_1024x1024.png?v=1599220976",
+        "price": "900"
+    },
+    {
+        "id": "10",
+        "brand": "Burton",
+        "name": "Burton Free Thinker",
+        "style" : "Speed-Snowboard",
+        "avatar": "https://www.burton.com/static/product/W21/13219106000150_1.png?impolicy=bglt&imwidth=486",
+        "price": "500"
+    }
+]
