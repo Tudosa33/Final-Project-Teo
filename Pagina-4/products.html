@@ -82,11 +82,21 @@
         <section class="small-container">
             <div class="row-2">
                 <h2>All Products</h2>
-                <select name="" id="">
-                    <option value="">Default Sorting</option>
-                    <option value="">Sort by price</option>
-                    <option value="">Sort to a-z</option>
-                </select>
+                <div class="small-row">
+                    <select id="sort" data-filter="false">
+                        <option value="null">Select a criteria</option>
+                        <option value="ascendant-price">Ascendant Price</option>
+                        <option value="descendant-price">Descendant Price</option>
+                        <option value="ascendant-name">from (A-Z)</option>
+                        <option value="descendant-name">from (Z-A)</option>
+                    </select>
+                    <select id="brands" name="brand" data-filter="true">
+                        <option value="null">Select the product brand</option>
+                    </select>
+                    <select id="styles" name="style" data-filter="true">
+                        <option value="null">Select the snowboard kind of style</option>
+                    </select>
+                </div>
             </div>
             <div class="row1">
             </div>

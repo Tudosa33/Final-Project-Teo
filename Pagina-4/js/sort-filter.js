@@ -29,7 +29,7 @@ const products = [
     name: "Burton Family Tree Sensei",
     style : "Freestyle",
     avatar: "https://www.burton.com/static/product/W21/22242100000151_1.png?impolicy=bglt&imwidth=486",
-    price: 700
+    price: 650
 },
 {
     id: 5,
@@ -37,7 +37,7 @@ const products = [
     name: "Rome-ServiceDog",
     style : "Freestyle",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-ServiceDogSnowboard-2020-2021_1024x1024.png?v=1599223244",
-    price: 700
+    price: 500
 },
 {
     id: 6,
@@ -45,7 +45,7 @@ const products = [
     name: "Rome-SpeedFreak",
     style : "All-Mountain",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-SpeedFreakSnowboard-2020-2021_1024x1024.png?v=1599224649",
-    price: 900
+    price: 920
 },
 {
     id: 7,
@@ -53,7 +53,7 @@ const products = [
     name: "Rome-Royal Carp",
     style : "Park",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-RoyalSnowboard-2020-2021_1024x1024.png?v=1599222975",
-    price: 800
+    price: 780
 },
 {
     id: 8,
@@ -69,7 +69,7 @@ const products = [
     name: "Rome-National xXx",
     style : "All-Mountain",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-NationalSnowboard-Flip-2020-2021_1024x1024.png?v=1599220976",
-    price: 900
+    price: 990
 },
 {
     id: 10,
@@ -77,7 +77,7 @@ const products = [
     name: "Burton Free Thinker",
     style : "Speed-Snowboard",
     avatar: "https://www.burton.com/static/product/W21/13219106000150_1.png?impolicy=bglt&imwidth=486",
-    price: 500
+    price: 560
 },
 {
     id: 11,
@@ -85,7 +85,7 @@ const products = [
     name: "Rome-ServiceDog",
     style : "Freestyle",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-ServiceDogSnowboard-2020-2021_1024x1024.png?v=1599223244",
-    price: 700
+    price: 680
 },
 {
     id: 12,
@@ -93,7 +93,7 @@ const products = [
     name: "Rome-SpeedFreak",
     style : "All-Mountain",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-SpeedFreakSnowboard-2020-2021_1024x1024.png?v=1599224649",
-    price: 900
+    price: 490
 },
 {
     id: 13,
@@ -101,7 +101,7 @@ const products = [
     name: "Rome-Royal Carp",
     style : "Park",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-RoyalSnowboard-2020-2021_1024x1024.png?v=1599222975",
-    price: 800
+    price: 840
 },
 {
     id: 14,
@@ -109,7 +109,7 @@ const products = [
     name: "Men's Burton Kilroy Pow",
     style : "Freestyle",
     avatar: "https://www.burton.com/static/product/W21/19532103000155_1.png?impolicy=bglt&imwidth=486",
-    price: 600
+    price: 590
 },
 {
     id: 15,
@@ -117,7 +117,7 @@ const products = [
     name: "Burton Family Tree Sensei",
     style : "Freestyle",
     avatar: "https://www.burton.com/static/product/W21/22242100000151_1.png?impolicy=bglt&imwidth=486",
-    price: 700
+    price: 900
 },
 {
     id: 16,
@@ -125,7 +125,7 @@ const products = [
     name: "Men's Burton Ripcord",
     style : "All-Mountain",
     avatar: "https://www.burton.com/static/product/W21/10704107000145_1.png?impolicy=bglt&imwidth=486",
-    price: 650
+    price: 570
 },
 {
     id: 17,
@@ -133,7 +133,7 @@ const products = [
     name: "Burton Skeleton Key",
     style : "Park",
     avatar: "https://www.burton.com/static/product/W21/22251100000162_1.png?impolicy=bglt&imwidth=486",
-    price: 800
+    price: 860
 },
 {
     id: 18,
@@ -141,7 +141,7 @@ const products = [
     name: "Rome-National xXx",
     style : "All-Mountain",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-NationalSnowboard-Flip-2020-2021_1024x1024.png?v=1599220976",
-    price: 900
+    price: 910
 },
 {
     id: 19,
@@ -157,7 +157,7 @@ const products = [
     name: "Rome-ServiceDog",
     style : "Freestyle",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-ServiceDogSnowboard-2020-2021_1024x1024.png?v=1599223244",
-    price: 700
+    price: 760
 },
 {
     id: 21,
@@ -165,7 +165,7 @@ const products = [
     name: "Rome-SpeedFreak",
     style : "All-Mountain",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-SpeedFreakSnowboard-2020-2021_1024x1024.png?v=1599224649",
-    price: 900
+    price: 450
 },
 {
     id: 22,
@@ -173,7 +173,7 @@ const products = [
     name: "Rome-Royal Carp",
     style : "Park",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-RoyalSnowboard-2020-2021_1024x1024.png?v=1599222975",
-    price: 800
+    price: 940
 },
 {
     id: 23,
@@ -181,7 +181,7 @@ const products = [
     name: "Rome-RavineSelect",
     style : "Park",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-RavineSelect-Snowboard-2020-2021_1024x1024.png?v=1599221718",
-    price: 700
+    price: 1000
 },
 {
     id: 24,
@@ -189,20 +189,13 @@ const products = [
     name: "Rome-National xXx",
     style : "All-Mountain",
     avatar: "https://cdn.shopify.com/s/files/1/0370/4055/4115/products/Rome-NationalSnowboard-Flip-2020-2021_1024x1024.png?v=1599220976",
-    price: 900
+    price: 1000
 },
 ];
 
 const productRow = document.querySelector(".row1");
 const activeFilters = {};
 let currentState = [];
-
-/**
-0. construim o noua variabila globala care sa contina filtrele active
-1. construim un event custom cu numele filterChanged (new Event)
-2. la fiecare change pe select, vom declansa acest nou event (dispatchEvent)
-3. ascultam la acest event si modificam lista in functie de filtrele disponibile (document.addEventListener, generateTable)
-*/
 
 function generateContainer(products) {
     currentState = products;
@@ -228,115 +221,108 @@ function generateContainer(products) {
             </div>
         </div>
         `
-        productRow.appendChild(productWrapper)
-        // const objectKeys = Object.keys(product);
-        // for (let key of objectKeys) {
-        //     console.log(product[key])
-        //     const td = document.createElement("td");
-        //     td.textContent = product[key];
-        //     console.log(td)
-        // }
+        productRow.appendChild(productWrapper);
     }
 }
+
+
+function generateFilter(selectId, objectKey) {
+    const values = new Set(products.map((product) => product[objectKey]));
+    const select = document.getElementById(selectId);
+
+    for (let value of values) {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+    }
+}
+
+generateFilter("brands", "brand");
+generateFilter("styles", "style");
+
+document.addEventListener("filterChanged", function (event) {
+    const filter = event.detail.filter;
+    const value = event.detail.value;
+
+    activeFilters[filter] = value;
+
+    const filteredProducts = products.filter((product) => {
+        return (
+            (!activeFilters.brand || product.brand === activeFilters.brand) &&
+            (!activeFilters.style || product.style === activeFilters.style)
+        );
+    });
+
+    generateContainer(filteredProducts);
+});
+
+const selectElements = document.querySelectorAll(
+    "select[data-filter='true']"
+);
+
+for (let selectElement of selectElements) {
+    selectElement.addEventListener("change", (event) => {
+        const value =
+            event.target.value === "null" ? null : event.target.value;
+        const filterDetails = { filter: event.target.name, value: value };
+        const filterChangedEvent = new CustomEvent("filterChanged", {
+            detail: filterDetails
+        });
+        document.dispatchEvent(filterChangedEvent);
+    });
+}
+
 generateContainer(products)
 
-// function generateFilter(selectId, objectKey) {
-// const values = new Set(cars.map((car) => car[objectKey]));
-// const select = document.getElementById(selectId);
+const sortSelect = document.getElementById("sort");
 
-// for (let value of values) {
-//     const option = document.createElement("option");
-//     option.value = value;
-//     option.textContent = value;
-//     select.appendChild(option);
-// }
-// }
+function sortBy(field, direction) {
+    currentState.sort(function (a, b) {
+        let value1 = a[field];
+        let value2 = b[field];
 
-// generateFilter("marci", "marca");
-// generateFilter("ani", "an");
+        if (typeof value1 === "string") value1 = value1.toUpperCase();
+        if (typeof value2 === "string") value2 = value2.toUpperCase();
 
-// document.addEventListener("filterChanged", function (event) {
-// const filter = event.detail.filter;
-// const value = event.detail.value;
+        if (
+            (direction === "asc" && value1 < value2) ||
+            (direction === "desc" && value1 > value2)
+        ) {
+            return -1;
+        }
 
-// activeFilters[filter] = value;
+        if (
+            (direction === "asc" && value1 > value2) ||
+            (direction === "desc" && value1 < value2)
+        ) {
+            return 1;
+        }
 
-// const filteredCars = cars.filter((car) => {
-//     return (
-//     (!activeFilters.marca || car.marca === activeFilters.marca) &&
-//     (!activeFilters.an || car.an === Number(activeFilters.an))
-//     );
-// });
+        return 0;
+    });
+    generateContainer(currentState);
+}
 
-// generateTable(filteredCars);
-// });
-
-// const selectElements = document.querySelectorAll(
-// "select[data-filter='true']"
-// );
-
-// for (let selectElement of selectElements) {
-// selectElement.addEventListener("change", (event) => {
-//     const value =
-//     event.target.value === "null" ? null : event.target.value;
-//     const filterDetails = { filter: event.target.name, value: value };
-//     const filterChangedEvent = new CustomEvent("filterChanged", {
-//     detail: filterDetails
-//     });
-//     document.dispatchEvent(filterChangedEvent);
-// });
-// }
-
-// generateTable(cars);
-
-// const sortSelect = document.getElementById("sort");
-
-// function sortBy(field, direction) {
-// currentCarsState.sort(function (a, b) {
-//     let value1 = a[field];
-//     let value2 = b[field];
-
-//     if (typeof value1 === "string") value1 = value1.toUpperCase();
-//     if (typeof value2 === "string") value2 = value2.toUpperCase();
-
-//     if (
-//     (direction === "asc" && value1 < value2) ||
-//     (direction === "desc" && value1 > value2)
-//     ) {
-//     return -1;
-//     }
-
-//     if (
-//     (direction === "asc" && value1 > value2) ||
-//     (direction === "desc" && value1 < value2)
-//     ) {
-//     return 1;
-//     }
-
-//     return 0;
-// });
-// generateTable(currentCarsState);
-// }
-
-// sortSelect.addEventListener("change", (event) => {
-// const { value } = event.target;
-// switch (value) {
-//     case "nume-ascendent": {
-//     sortBy("marca", "asc");
-//     break;
-//     }
-//     case "nume-descendent": {
-//     sortBy("marca", "desc");
-//     break;
-//     }
-//     case "pret-descendent": {
-//     sortBy("pret", "desc");
-//     break;
-//     }
-//     case "pret-ascendent": {
-//     sortBy("pret", "asc");
-//     break;
-//     }
-// }
-// generateTable(currentCarsState);
-// });
+sortSelect.addEventListener("change", (event) => {
+    const { value } = event.target;
+    switch (value) {
+        case "ascendant-name": {
+            sortBy("brand", "asc");
+            break;
+        }
+        case "descendant-name": {
+            sortBy("brand", "desc");
+            break;
+        }
+        case "descendant-price": {
+            sortBy("price", "desc");
+            break;
+        }
+        case "ascendant-price": {
+            sortBy("price", "asc");
+            break;
+        }
+    }
+    generateContainer(currentState);
+});
