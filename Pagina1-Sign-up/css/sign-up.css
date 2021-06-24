@@ -151,20 +151,7 @@ body {
     background-size: cover;
   }
   #wrapper .banner-area .content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: white;
+    margin: 0 auto;
   }
   #wrapper .banner-area .content h1 {
     margin-bottom: 40px;
@@ -174,8 +161,8 @@ body {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
     gap: 0 20px;
     margin: 20px 30px;
   }

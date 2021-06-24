@@ -11,12 +11,6 @@ function getElementIndex(element) {
   return Array.from(element.parentNode.children).indexOf(element);
 }
 
-window.addEventListener("resize", function (e) {
-  // optiona: use a debounce function
-  // update the maxVisibleItems value based on window width
-  
-});
-
 for (let button of buttons) {
   button.addEventListener("click", function (e) {
     const { direction } = e.target.dataset;

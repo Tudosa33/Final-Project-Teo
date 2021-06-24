@@ -135,11 +135,7 @@ body {
             background-size: cover;
     
             .content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                color: white;
+                margin: 0 auto;
     
                 h1 {
                     margin-bottom: 40px;
@@ -148,7 +144,7 @@ body {
                 form {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
-                    grid-template-rows: 1fr 1fr;
+                    grid-template-rows: auto;
                     gap: 0 20px;
                     margin: 20px 30px;
                     

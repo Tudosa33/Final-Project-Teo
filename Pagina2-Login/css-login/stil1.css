@@ -103,6 +103,7 @@ body {
   }
   #wrapper .banner-area .content h1 {
     color: white;
+    margin-bottom: 40px;
   }
   #wrapper .banner-area .content form button {
     background-color: #272727;
