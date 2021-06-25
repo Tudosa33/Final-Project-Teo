@@ -30,7 +30,8 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(snowboards.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
     background-size: cover;
@@ -128,7 +129,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 40%;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
     height: 100vh;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://picsum.photos/seed/picsum/1000/1000);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://picsum.photos/seed/picsum/1000/1000);
@@ -144,7 +146,8 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 60%;
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
     height: 100vh;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(snowboards.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(snowboards.jpg);
