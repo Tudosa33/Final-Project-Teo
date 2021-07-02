@@ -235,7 +235,7 @@ body p {
   visibility: visible;
   top: 33%;
   padding: 20px 40px;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   cursor: pointer;
@@ -263,8 +263,6 @@ body p {
 .categories .small-container {
   max-width: 1080px;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
 .categories .small-container:first-child {
@@ -333,8 +331,6 @@ body p {
   position: relative;
   width: 100%;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff8400), to(#5E889F));
   background: linear-gradient(#ff8400, #5E889F);
   z-index: 100;

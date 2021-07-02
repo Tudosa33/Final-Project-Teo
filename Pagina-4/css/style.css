@@ -235,7 +235,7 @@ body p {
   visibility: visible;
   top: 33%;
   padding: 20px 40px;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   cursor: pointer;
@@ -263,8 +263,6 @@ body p {
 .categories .small-container {
   max-width: 1080px;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
 .categories .small-container:first-child {
@@ -308,6 +306,10 @@ body p {
 
 .categories .small-container .row-2 select:focus {
   outline: none;
+}
+
+.categories .small-container .row-2 h2 {
+  margin-left: 20px;
 }
 
 .categories .small-container .page-button {
